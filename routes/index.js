@@ -17,7 +17,7 @@ const params = {
 /* CLOUDINARY SETUP */
 var cloudinary = require('cloudinary').v2;
 cloudinary.config({ 
-  cloud_name: 'ddqs0epmj', 
+  cloud_name: 'ddqs0epmj',
   api_key: '818868939623322', 
   api_secret: 'P5Pb0z-cUBkf9L2ADj82U6btiL8' 
 });
@@ -84,7 +84,7 @@ router.post('/upload', async function(req, res, next){
         case 'red':
           hairColor = 'cheveux roux';
           break;
-        case 'grey':
+        case 'gray':
           hairColor = 'cheveux gris';
           break;
         default:
